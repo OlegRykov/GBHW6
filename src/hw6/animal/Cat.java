@@ -1,4 +1,4 @@
 package hw6.animal;
 
-public class Cat {
+public class Cat extends Animal{
 }
