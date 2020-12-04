@@ -4,7 +4,7 @@ public abstract class Animal {
     protected String name;
     protected String color;
     protected int age;
-    public static int score;
+    protected static int score;
 
     public Animal(String name, String color, int age) {
         this.name = name;
@@ -20,4 +20,8 @@ public abstract class Animal {
     public abstract void swim(int distance);
 
     public abstract void run(int distance);
+
+    public static int getScore() {
+        return score;
+    }
 }

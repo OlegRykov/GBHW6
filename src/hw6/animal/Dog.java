@@ -1,7 +1,7 @@
 package hw6.animal;
 
 public class Dog extends Animal {
-    public static int score;
+    protected static int score;
 
 
     public Dog(String name, String color, int age) {
@@ -27,5 +27,9 @@ public class Dog extends Animal {
         }else {
             System.out.println(name + " пробежал(а) " + distance + "м.");
         }
+    }
+
+    public static int getScore() {
+        return score;
     }
 }

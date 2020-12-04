@@ -10,8 +10,8 @@ public class Main {
         Animal dog2 = new Dog("hotdog", "brown", 2);
         Animal dog3 = new Dog("tayson", "black", 5);
 
-        System.out.println("Всего животных - " + Animal.score + ". Из них: " + Cat.score +
-                " кота и " + Dog.score + " собаки.");
+        System.out.println("Всего животных - " + Animal.getScore() + ". Из них: " + Cat.getScore() +
+                " кота и " + Dog.getScore() + " собаки.");
 
         cat1.swim(5);
         dog3.swim(10);
